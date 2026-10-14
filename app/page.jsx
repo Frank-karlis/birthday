@@ -4,20 +4,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="px-3 min-h-screen md:px-12 lg:px-16 py-12 bg-[#124D1C] min-h-screen">
+    <main className="px-3 min-h-screen md:px-12 lg:px-16 py-12 bg-[#F9E6A8] min-h-screen">
       <section className="min-h-screen  flex flex-col justify-between gap-16 md:gap-0">
       
         <div>
-         <FaWineGlassAlt className="-skew-x-30 inline-block Fixed text-6xl px-4 pl-6"/>
-          <h1 className="text-[#0B1849] text-5xl md:text-6xl text-center font-bold">
+         <FaWineGlassAlt className="-skew-x-30 inline-block Fixed text-6xl px-4 pl-6 text-[#F2A900]"/>
+          <h1 className="text-[#4D2A00] text-5xl md:text-6xl text-center font-bold">
             HAPPY BIRTHDAY MRS CHARITY 
           </h1>
-          <h2 className="p-4 text-[#0B1849]">
-                I want to sincerly Appreciate God for making you part fo my Life
-                 .There are things that i would not be able to Achieve without you so i really grateful to 
-                God for this Gift. I want to for Being a Good Mother As you add another year to your age
-                 I pray that may Continue to give you Good health of Mind and Body, Prosperity,
-                
+          <h2 className="p-4 text-[#4D2A00]">
+As you celebrate another year of life, I want you to know how deeply loved you are and how much I appreciate all your efforts. May God continue to bless 
+you with good health of mind and body, favour, prosperity, and abundance. Thank you for being a wonderful mother and a woman of great virtue. Happy birthday, Mum!
             </h2>
 
             <blockquote className=" grid grid-cols-2 gap-3 m-6 lg:grid-cols-4 lg:gap-5">
@@ -35,26 +32,26 @@ export default function Home() {
                 className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
             <Image
               width={300}
-              height={300}
-              src={"/Pic 1.jpg"}
-              alt="car image"
-              className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
-            <Image
-              width={300}
               height={350}
               src={"/Pic 2.jpg"}
               alt="car image"
               className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
             <Image
-              width={200}
-              height={200}
-              src={"/Pic 3.jpg"}
+              width={300}
+              height={300}
+              src={"/Pic 1.jpg"}
               alt="car image"
               className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
             <Image
               width={200}
               height={200}
               src={"/Pic 16.jpg"}
+              alt="car image"
+              className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
+            <Image
+              width={200}
+              height={200}
+              src={"/Pic 3.jpg"}
               alt="car image"
               className="h-[200px] w-[200px] rounded-lg object-cover transition-transform duration-300 hover:scale-105" />
             <Image

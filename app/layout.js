@@ -1,9 +1,11 @@
-import { Inter } from "next/font/google";
+import "@fontsource/libre-caslon-condensed/400.css";
+import "@fontsource/libre-caslon-condensed/500.css";
+import "@fontsource/libre-caslon-condensed/700.css";
 import "./globals.css";
 import Nav from "./components/Nav";
 import {Footer} from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Libre Caslon Condensed({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Happy Birthday",
@@ -13,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}> 
+      <body>
         <Nav/>
         {children}
         <Footer/>

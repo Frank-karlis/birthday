@@ -67,10 +67,10 @@ const { values, handleSubmit, touched, errors, handleChange,handleBlur } = useFo
 
     return (
         <>
-            <main className="px-3 md:px-12 lg:px-16 py-12  bg-gradient-to-b from-[#F0ECE5] via-white to-[#B6BBC4] min:h-screen md:h-screen">
+            <main className=" bg-[#F9E6A8] px-3 md:px-12 lg:px-16 py-12 min:h-screen md:h-screen">
                 <section className=" w-[320px] md:w-full   flex justify-center ronded-lg p-6">
-                    <form onSubmit={handleSubmit} className="w-full md:w-[380px] flex flex-col gap-4 border border-gray-300 p-4">
-                        <h1 className="text-black"> Send Your good will message </h1>
+                    <form onSubmit={handleSubmit} className="w-full md:w-[380px] flex flex-col gap-4 border border-[#CC6F00] p-4">
+                        <h1 className="text-black text-medium-500 "> Send Your good will message </h1>
                         <div className="mb-7">
                             <TextField
                                 id="message"
@@ -102,11 +102,12 @@ const { values, handleSubmit, touched, errors, handleChange,handleBlur } = useFo
                             {touched.name && errors.name ? <span className="text-xs text-red-500">{errors.name}</span> : null}
                     </div>
 
-                        <Button
+                       <Button
                             type="submit"
                             variant="contained"
                             color="primary"
                             style={{ padding: 12 }}>SEND YOUR WISHES</Button>
+
                     </form>
                 </section>
 

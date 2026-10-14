@@ -11,15 +11,14 @@ export default function Nav() {
 
     return (
         <>
-            <nav className="flex justify-between items-center  bg-[#0B1849] py-3 px-3 md:px-12 lg:px-10">
+            <nav className="flex justify-between items-center  bg-[#4D2A00] py-3 px-3 md:px-12 lg:px-10">
                 <div className="flex gap-5">
-                         <BsFillCake2Fill className="text-white text-3xl"/>
+                         <BsFillCake2Fill className="text-[#F2A900] text-3xl"/>
       </div>
-                <div className="text-white lg:flex gap-7 justity-center max-sm:hidden md:hidden">
-                    <Link href="/greeting"className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" >Home</Link>
-                    <Link href="/messages"className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" >Product</Link>
-                    <h1 className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" >Contact us</h1>
-                    <h1 className="py-3 text-3xs text-bold font-bold hover:text-white duration-500" >Locate us</h1>
+                <div className="text-[#F9E6A8] lg:flex gap-7 justity-center max-sm:hidden md:hidden">
+                    <Link href="/"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Home</Link>
+                    <Link href="/greeting"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Send Wish</Link>
+                    <Link href="/messages"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Bithday Wishes</Link>
                 </div>
                 <div className="lg:hidden">
                     {!menu
@@ -31,11 +30,10 @@ export default function Nav() {
             </nav>
             {menu
                 ?
-                <ul className="bg-[#0B1849]  flex flex-col gap-5 p-4 head z-10" style={{ color: "whitesmoke" }}>
-                    <li><Link href="/greeting" className="e font-bold text-white hover:text-white duration-500">Home</Link></li>
-                    <li><Link href="/messages" className="font-bold text-white hover:text-white duration-500">Product</Link></li>
-                    <li><h2  className="font-bold text-white hover:text-white duration-500">Contact us</h2></li>
-                    <li><h2  className="font-bold text-white hover:text-white duration-500 ">Locate us</h2></li>
+                <ul className="bg-[#4D2A00]  flex flex-col gap-5 p-4 head z-10" style={{ color: "whitesmoke" }}>
+                    <li> <Link href="/"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Home</Link></li>
+                    <li><Link href="/greeting"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Send Wish</Link></li>
+                    <li><Link href="/messages"className="py-3 text-3xs text-bold font-bold hover:text-[#F9E6A8] duration-500" >Bithday Wishes</Link></li>
                 </ul>
                 : null}
         </>

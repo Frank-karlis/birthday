@@ -1,7 +1,7 @@
 export function Footer() {
     return (
-        <footer className=" h-[60pxp] flex justify-center items-center px-3 md:px-12 lg:px-16  bg-[#0B1849]">
-            <p className=""> &copy; 2026 Happy Birthday Mrs Charity </p>
+        <footer className=" h-[60pxp] flex justify-center items-center px-3 md:px-12 lg:px-16  bg-[#4D2A00]">
+            <p className="text-[#F9E6A8]"> &copy; 2026 Happy Birthday Mrs Charity </p>
         </footer>
     )
 }
