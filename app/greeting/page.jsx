@@ -67,7 +67,7 @@ const { values, handleSubmit, touched, errors, handleChange,handleBlur } = useFo
 
     return (
         <>
-            <main className=" bg-[#F9E6A8] px-3 md:px-12 lg:px-16 py-12 min:h-screen md:h-screen">
+            <main className=" bg-[#F9E6A8] px-3 md:px-12 lg:px-16 py-12 min:h-screen md:min:h-screen">
                 <section className=" w-[320px] md:w-full   flex justify-center ronded-lg p-6">
                     <form onSubmit={handleSubmit} className="w-full md:w-[380px] flex flex-col gap-4 border border-[#CC6F00] p-4">
                         <h1 className="text-black text-medium-500 "> Send Your good will message </h1>
